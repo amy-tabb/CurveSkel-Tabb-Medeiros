@@ -22,7 +22,7 @@ This paper is currently under review but available at arXiv as arXiv:1702.07619 
 
 The code may be used without restriction. If the results of the code are used as a part of a system described in a publication, we request that the authors cite a published version paper, if the work has been published, and the arXiv version, if not. 
 
-The model may be only used for evaluation and debugging purposes of the code, and not used in any other published, or 3D printed, work. However, no guarantees are expressed or implied of the code or the model..
+The model may be only used for evaluation and debugging purposes of the code, and not used in any other published, or 3D printed, work. However, no gaurantees are expressed or implied of the code or the model.
 
 Oct 11, 2017
 Comments/Bugs/Problems: amy.tabb@ars.usda.gov
