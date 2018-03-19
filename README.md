@@ -5,22 +5,29 @@ BUILDING AND RUNNING
 This README file is to accompany code for curve skeletonization of elongated objects that may have noisy surfaces, produced by Amy Tabb and Henry Medeiros as a companion to their paper:
 	Fast and robust curve skeletonization for real-world elongated objects
 
-@article{Tabb17Fast,
-  author    = {Amy Tabb and
-               Henry Medeiros},
-  title     = {Fast and robust curve skeletonization for real-world elongated objects},
-  journal   = {CoRR},
-  volume    = {abs/1702.07619},
-  year      = {2017},
-  url       = {http://arxiv.org/abs/1702.07619},
-  timestamp = {Wed, 07 Jun 2017 14:40:40 +0200},
-  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/TabbM17a},
-  bibsource = {dblp computer science bibliography, http://dblp.org}
-}
+@INPROCEEDINGS{Tabb18Fast,
+author={Amy Tabb and Henry Medeiros},
+booktitle={2018 IEEE Winter Conference on Applications of Computer Vision (WACV)},
+title={Fast and robust curve skeletonization for real-world elongated objects},
+year={2018},
+pages={1935-1943},
+doi={10.1109/WACV.2018.00214},
+month={March},}
 
-This paper is currently under review but available at arXiv as arXiv:1702.07619 [cs.CV].
+This paper is also available from arXiv:1702.07619 [cs.CV] -- including the supplementary material.
 
-The code may be used without restriction. If the results of the code are used as a part of a system described in a publication, we request that the authors cite a published version paper, if the work has been published, and the arXiv version, if not. 
+The code may be used without restriction. If the results of the code are used as a part of a system described in a publication, we request that the authors cite a published version paper.  The citation for the code itself is: 
+
+@electronic{tabb2018skel_code,
+author = {Tabb, Amy},
+year = {2018},
+title = {Code from: Fast and robust curve skeletonization for real-world elongated objects},
+doi = {10.15482/USDA.ADC/1399689},
+owner = {Ag Data Commons},
+howpublished= {\url{http://dx.doi.org/10.15482/USDA.ADC/1399689}}
+} 
+
+(Other citation styles are fine -- this is one that worked for us, but we're not totally happy with it.)
 
 The model may be only used for evaluation and debugging purposes of the code, and not used in any other published, or 3D printed, work. However, no gaurantees are expressed or implied of the code or the model.
 
