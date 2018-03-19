@@ -29,6 +29,8 @@ howpublished= {\url{http://dx.doi.org/10.15482/USDA.ADC/1399689}}
 
 (Other citation styles are fine -- this is one that worked for us, but we're not totally happy with it.)
 
+Minimal working examples are available here (third resource): http://dx.doi.org/10.15482/USDA.ADC/1399689
+
 The model may be only used for evaluation and debugging purposes of the code, and not used in any other published, or 3D printed, work. However, no gaurantees are expressed or implied of the code or the model.
 
 Oct 11, 2017
