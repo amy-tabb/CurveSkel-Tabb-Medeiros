@@ -33,7 +33,7 @@ Minimal working examples are available here (third resource): http://dx.doi.org/
 
 The model may be only used for evaluation and debugging purposes of the code, and not used in any other published, or 3D printed, work. However, no gaurantees are expressed or implied of the code or the model.
 
-Oct 11, 2017
+Mar 19, 2018
 Comments/Bugs/Problems: amy.tabb@ars.usda.gov
 
 This README covers instructions for building the code.
