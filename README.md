@@ -58,8 +58,16 @@ The flags needed using the gnu compiler, openmp, and the C++11 standard are:
 	opencv_highgui
 	opencv_imgproc
 	opencv_imgcodecs
- 
-
+	
+ 5. [July 10 update] To build, a command line example using OpenCV 4.0: 
+ g++ *.cpp -o curve_skel -fopenmp -std=gnu++11 -Wall -I\usr\local\include -lgomp -lopencv_core  -lopencv_imgproc -lopencv_imgcodecs
+ The executable curve_skel is created.
+ In the Eclipse CDT IDE, under project properties->C/C++build->settings->Cross G++ compiler->dialect
+ 	select ISO C++ 11 or greater
+	project properties->C/C++build->settings->Cross G++ compiler->miscellaneous
+	add the openmp flag -fopenmp [platform dependent]
+	project properties->C/C++build->settings->Cross G++ linker->Libraries
+	add the libraries specified above or a subset of them.  The OpenCV library is undergoing some changes and the full set 		may not be necessary.
  
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
