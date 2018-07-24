@@ -45,8 +45,11 @@ Instructions for compilation and linking:
 2. This code is dependent on the OpenCV-3.* or OpenCV-4.0 libraries and OpenMP.  You need a compiler that has the option to enable OpenMP.  If you're on Ubuntu, you will be covered if you do the below.  These libraries should be in the include path, or specified in your IDE.  Generally, if you can install OpenCV, this will cover most cases.
 
 Ubuntu packages for OpenCV
+
 [compiler] sudo apt-get install build-essential
+
 [required] sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+
 [optional] sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
 
 
