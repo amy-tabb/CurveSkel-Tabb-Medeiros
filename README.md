@@ -42,7 +42,12 @@ Instructions for compilation and linking:
 1. This code has been written and tested on Ubuntu 14.04, using Eclipse CDT as the IDE, and is written in C/C++.
 
 
-2. This code is dependent on the OpenCV-3.* or OpenCV-4.0 libraries.  These libraries should be in the include path, or specified in your IDE.
+2. This code is dependent on the OpenCV-3.* or OpenCV-4.0 libraries and OpenMP.  You need a compiler that has the option to enable OpenMP.  If you're on Ubuntu, you will be covered if you do the below.  These libraries should be in the include path, or specified in your IDE.  Generally, if you can install OpenCV, this will cover most cases.
+
+Ubuntu packages for OpenCV
+[compiler] sudo apt-get install build-essential
+[required] sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+[optional] sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
 
 
 3. Compiler flags: we use OpenMP for parallelization and the C++11 standard.  Note that Eclipse's indexer marks some items from C++11 as errors (but still compiles).  
