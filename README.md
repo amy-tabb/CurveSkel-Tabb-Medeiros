@@ -45,7 +45,7 @@ Comments/Bugs/Problems: amy.tabb@ars.usda.gov
 
 C++ compiling, linking, running not your cup of tea, or are you on another OS?  I am working on a Docker release -- hopefully news soon!
 
-#Compiling, Linking, Running
+# Compiling, Linking, Running
 Basic instructions for compilation and linking:
 
 1. This code has been written and tested on Ubuntu 14.04 and Ubuntu 16.04, using Eclipse CDT as the IDE, and is written in C/C++.  
@@ -121,7 +121,7 @@ The results are written as .ply meshes.  One can view them with free viewer [Mes
 - The `paths_TabbMedeiros.ply` file shows the paths computed by the algorithm.
 - The `skel_TabbMedeiros.ply` shows the 1D skeleton voxels.
 - The `initial.ply` file shows a mesh of the original object.  This may be important for verifying that your model files are set up correctly.  Also, note that this code only computes the curve skeleton of the largest connected component of the model file. This can easily be altered by iterating over all of the components, or feeding different components to the algorithm. `initial.ply` records the connected component used as input to the algorithm.
-- 'details.txt' shows some record of the algorithm's progress and the size of the input.  For instance, 
+- `details.txt` shows some record of the algorithm's progress and the size of the input.  For instance, 
 ```
 time 3.294 seconds 
 Number of occupied voxels 88798
@@ -129,7 +129,7 @@ Number possible voxels 45240000
 Number of proposed tips 145
 Threshold for spurious segment classification 1e-12
 ```
-time is the run time for the algorithm to compute the curve skeleton, not including load and write time.  The initial model contained 88,798 voxels.  The user either input threshold 1e-12 or used the default, etc.
+time is the run time for the algorithm to compute the curve skeleton, not including load and write time.  The initial model contained 88,798 voxels.  The user enter threshold 1e-12 or used the default, etc.
 
 
 
