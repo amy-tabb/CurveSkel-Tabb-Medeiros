@@ -86,14 +86,14 @@ void TabbMedeiros(DISTANCE dist_type, string supplied_write_directory, double th
 	ifstream in_test;
 	in_test.open(supplied_BBfile.c_str());
 
-	if (!in_test){
+	if (!in_test.good()){
 		cout << "You forgot the BB file or the path is wrong" << endl << supplied_BBfile << endl;;
 		exit(1);
 	}
 	in_test.close();
 
 	in_test.open(supplied_write_directory.c_str());
-	if (!in_test){
+	if (!in_test.good()){
 		cout << "You forgot the object file or the path is wrong" << endl << supplied_object_file << endl;;
 		exit(1);
 	}
@@ -167,6 +167,7 @@ void TabbMedeiros(DISTANCE dist_type, string supplied_write_directory, double th
 	vector<int_type_t> local_maxes_skeleton_hypotheses;
 
 	in.open(supplied_BBfile.c_str());
+
 
 	in >> division;
 	in >> pA[0] >> pA[1] >> pA[2];
