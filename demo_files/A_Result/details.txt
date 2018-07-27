@@ -1,0 +1,5 @@
+time 3.294 seconds 
+Number of occupied voxels 88798
+Number possible voxels 45240000
+Number of proposed tips 145
+Threshold for spurious segment classification 1e-12
