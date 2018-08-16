@@ -1,7 +1,7 @@
 # CurveSkel-Tabb-Medeiros
 
 ### Newer release in another repository
-This repository contains a stable, older release.  Want the new one?  Go [here](https://github.com/amy-tabb/CurveSkel-Tabb-Medeiros-2018)
+This repository contains a stable, older release.  Want the new one?  Go to [CurveSkel-Tabb-Medeiros-2018](https://github.com/amy-tabb/CurveSkel-Tabb-Medeiros-2018).
 
 # Underlying ideas -- the paper
 
